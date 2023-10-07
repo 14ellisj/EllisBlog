@@ -161,4 +161,11 @@ a {
     font-family:arial;
     font-weight:bold;  
     transform:rotate(-25deg);
-  }
+}
+
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
