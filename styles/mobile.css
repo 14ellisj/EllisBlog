@@ -169,3 +169,14 @@ a {
     padding-left: 1%;
     padding-bottom: 2%;
 }
+
+.inprogress-overlay span{
+    display:table-cell;
+    color:yellow;
+    font-size:1.5em;
+    border-top:2px solid yellow;
+    border-bottom:2px solid yellow;
+    font-family:arial;
+    font-weight:bold;  
+    transform:rotate(-25deg);
+}
