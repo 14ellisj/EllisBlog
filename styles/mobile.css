@@ -4,43 +4,13 @@ body{
     margin: 0px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  
-}
-
-li {
-    display: inline;
-    float: left;
-    display: block;
-    padding: 8px;
-    background-color: #bbd9ff;
-   
-}
-
-li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-   
-}
-
-li a:hover {
-    background-color: #8dbdfc;
-   
-}
-
 h1{
     text-align: center;
     margin: 0px;
     width: 100%;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .imageBlog {
@@ -88,6 +58,8 @@ table, td {
 }
 h2 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .recent {
     border-style: solid;
@@ -105,4 +77,59 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 10%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ddd;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+
+.topnav a {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+
+.topnav a.icon {
+    background: #ddd;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+ 
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+
+.active {
+    background-color: #bbd9ff;
+    color: white;
+}
+
+a:hover { 
+    text-decoration: none; 
+    color:#ddd; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

@@ -6,14 +6,34 @@
         <title>Ellis Family Blog</title>
         <link rel="stylesheet" href="styles/mobile.css" />
         <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width : 720px)" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="archives.html">Archives</a></li>
-            <li><a href="merlin.html">Merlin 2023</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+       <!-- Top Navigation Menu -->
+       <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <script>
+          function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+           x.style.display = "block";
+           }
+          }
+      </script>
         <div>
             <h1>Archives of all Blogs</h1>
         </div>
