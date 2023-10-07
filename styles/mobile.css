@@ -67,7 +67,7 @@ h2 {
     border-color: #020202;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 0%;
     margin: 5%;
     text-align: center;
     background-color: #bbd9ff;
@@ -76,7 +76,7 @@ h2 {
 .ATBottom{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .topnav {
@@ -133,3 +133,32 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.flag{
+    width: 50%;
+}
+
+.comingsoon{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #020202;
+    padding-bottom: 0%;
+    margin: 5%;
+    text-align: center;
+    background-color: #bbd9ff;
+}
+
+.comingsoon-overlay{
+    width: 100%;
+}
+
+.comingsoon-overlay span{
+    display:table-cell;
+    color:red;
+    font-size:1.5em;
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+    font-family:arial;
+    font-weight:bold;  
+    transform:rotate(-25deg);
+  }
