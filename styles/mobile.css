@@ -1,0 +1,108 @@
+body{
+    background-color: #66be5c;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  
+}
+
+li {
+    display: inline;
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #bbd9ff;
+   
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+   
+}
+
+li a:hover {
+    background-color: #8dbdfc;
+   
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.imageBlog {
+    height: 100%;
+    width: 100%;   
+}
+
+.imageBorder {
+    border: 4px solid #555;
+}
+
+#front {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 3fr 2fr;
+    column-gap: 5px;
+}
+
+.text1 {
+    padding: 3%
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact {
+    text-align: center;
+}
+
+table {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+table, td {
+    padding: 8%;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.recent {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #020202;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    margin: 5%;
+    text-align: center;
+    background-color: #bbd9ff;
+}
+
+.ATBottom{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10%;
+}
